@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TAROTTAROT</title>
+</head>
+<body>
+<th:block>
+    <form action="login" method="post">
+        <input type="text" name="userId" id="userId" autocomplete="off" placeholder="ID"/>
+        <input type="password" name="userPassword" id="userPassword" placeholder="Password"/>
+        <input type="submit" value="로그인"/>
+        <div>
+            <label><a href="/signup">회원가입</a></label>
+        </div>
+    </form>
+</th:block>
+</body>
+</html>
